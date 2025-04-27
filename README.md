@@ -1,1 +1,1 @@
-# timmer-counter
+# Counter-Timmer

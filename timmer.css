@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(abstract-futuristic-technology-background-perspective-view-digital-number-timer-countdown-concept_4974-238.avif);
+    
+    
+}
+.start-active,
+.stop-active{
+    pointer-events: none;
+    opacity: 0.5;
+}
+#clock{
+   
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+#hours,#minutes,#seconds,#ms{
+    font-size: 30px;
+}
+.start{
+   background-color: yellow;
+    color: blue;
+}
+.stop{
+    background-color: greenyellow;
+    color: rgb(246, 7, 206);
+}
+.reset{
+    background-color: red;
+    color: aliceblue;
+}
+button{
+    border: none;
+    height: 30px;
+    width: 80px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+span,button{
+  position: relative;
+  top: 170px;
+}
+span{
+    color: rgb(0, 255, 94);
+    position: relative;
+    top: 150px;
+}
